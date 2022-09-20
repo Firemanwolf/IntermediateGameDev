@@ -1,0 +1,2114 @@
+fileFormatVersion: 2
+guid: 53dfd252c21b0834abf4df581389eb20
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 177, z: 0, w: 58}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 229
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1018fe308db623a4888c2a9c3d1386c5
+      internalID: -469321770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 230
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4210401012b2d684cadc60576bb4dc6a
+      internalID: 65309839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 229
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2780db8ab5bfe4bb343cc20496cfa8
+      internalID: 749381519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 229
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d655c2f2049e4bb6eaa01cecf0e17
+      internalID: 1473334482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 229
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a0614e5f0af0d46a8942243ce2dc1d
+      internalID: 293229674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 181
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a308b21b9eb64f8ae6e2ef5b68f39
+      internalID: -368712892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 181
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f4189149dd0546aa42cbaf6374bdf
+      internalID: -1862428920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 181
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286e71a8091235e469ff3af5d36624c6
+      internalID: 1470623545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 182
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1430f94301d49d24fa484bdf064f52fc
+      internalID: 871298686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 181
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58adf9d17ee492b40b2018409c2ff307
+      internalID: 897932175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 181
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84af8fefdf5e10d4b93e598b11b24d55
+      internalID: 983948755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 133
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc396a1f8ed734eb320e4303514ddb
+      internalID: 1291317296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 133
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99de127d37cfcc149a677e4dbc561612
+      internalID: -1797583008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 133
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704cd6cfc7e8b394eb817e577e2d2143
+      internalID: -905912346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 133
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e0b9a2519839b4282b3a1a2e87deba
+      internalID: 126302910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 50
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7fddc93d977d4ab3d97f2056bec3c
+      internalID: 657443474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 85
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd93e8288a619f4d831a6b20bba6d96
+      internalID: 775976011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 50
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc75e3d5221dab4db9929cfe2674496
+      internalID: 2001527731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 50
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2809f4ed9125e834584d713c60dc3eb8
+      internalID: 662092860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 85
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1411adb8d982a34393c27f35a7b483b
+      internalID: 1126522637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 50
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e9a58df5edbb1459610cf5b021dbda
+      internalID: -504022847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12bb7d145277524aa2d3d9d93457aa9
+      internalID: 1848509753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 85
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031b17f7fd8948d459d0de3b1be4899f
+      internalID: -1350832433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 50
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc4a8d5e775244cafaf4685dbf99fa
+      internalID: 302554630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 60
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4f127d9f6c7634196d1b9fee05a82d
+      internalID: 1785217241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_25
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 52
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0226923f88c4404599ce70af78464b9
+      internalID: 1740201477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 70
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716282f7a6613cb49be10b9d4841446d
+      internalID: 1551279840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 75
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e3bff8ee7c5c446af135a24a9fd5ac
+      internalID: -1733789113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_28
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 50
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719c962f64e74de45b30f01940e01eb7
+      internalID: 1509675986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_29
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 50
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64a39629c830d4fa35e1cefb7c6ed0
+      internalID: -1730849241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_30
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 32
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1e8bce772bb0447bb28c56e2b29ca7
+      internalID: 1675189135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0dd0802287854aa3d2ce512a35385
+      internalID: 451434223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_32
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de644c5566bdf9459f4eaa10323ae91
+      internalID: 2117981356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_33
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 32
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fcf887aa641504ca42b89726f167a6
+      internalID: -2051912371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0a2039355a6a44a5409cf2142d45d
+      internalID: 339565814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_35
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7220da07c80f5a74f95f1473c99c667b
+      internalID: -286140301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 32
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27400d68339c9464280723749d8a8f04
+      internalID: 292477219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 32
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb2dfaaf00c9445b733b34490d134e
+      internalID: -73985730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a8e0077a7e0bf4bb61f0901d5a0632
+      internalID: -762425432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_39
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366754a3d81f9f74f84594265ce62214
+      internalID: 2042784963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_40
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 32
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8776167ce1d4c54a9cec8da1f718825
+      internalID: -756080381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28479b9fa299c114d944897cb04307be
+      internalID: -614335034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626cafb0a4d77147bfd5b969f8fc248
+      internalID: -883325641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 32
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d136443e6e142f4db57614548176bfe
+      internalID: -1794001971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_44
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 32
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7839f23d841e1498b34d6f90fa4381
+      internalID: 1937577032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 32
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472897737170ca448936655b2de08104
+      internalID: -671571244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_46
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb17156915c2e84e8b9cca596241af4
+      internalID: 1524648404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_47
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 32
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48a9bb4772f2154cb4ae4bcf7af9af5
+      internalID: 1268426089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_48
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 20
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e047bd391b7be345ae98480d3b035ca
+      internalID: -1816970338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d06c74403648dc47a7e6f7a2fe09d2e
+      internalID: -240722202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e70ad9486f99749bf80e4ada170945
+      internalID: -435776236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_51
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 20
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b01cb73eb61954db326d66cd066883
+      internalID: -1761434589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 20
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cd9e71ebfa76543b4bac4c8d255f31
+      internalID: -2105905931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_53
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 20
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802df6b0245429749a19dde2095c23e1
+      internalID: -2105470962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_54
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 18
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ea7facd07250b42850e65b4853e4c3
+      internalID: 237204952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_55
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 19
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b7ffe74bf21147a603f75c6e09a71
+      internalID: 2073576702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 20
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7a7d2dd987ed849a170937299afcc1
+      internalID: 1390892408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_57
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 20
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6d2e812536bfc49908e5a3a15f86da
+      internalID: -85826590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_58
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b83616939f334478d05f1cbc3d8b79
+      internalID: -169798837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_59
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 20
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ca8011da59b5441bff774f49b473f9
+      internalID: 1079445670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_60
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 20
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e85ed1d575ac4e85caa250dd2eee9
+      internalID: 1479957059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_61
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 20
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f925474cce0cfbf4b9a66acbaa682b75
+      internalID: -1645333987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_62
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 20
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a8ca1ca38443243a3f1aa94126f7f5
+      internalID: 198250016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_63
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 8
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ed7e372cb9cc2418911be24fa57e78
+      internalID: 1762293954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3dd28544438b34f9e53096136fb33c
+      internalID: -790287400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_65
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1446ce9608e0cb4cb7f09ea10f6edf7
+      internalID: -1613801770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_66
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58fb8bbe1ee9b489aa07664be6a850
+      internalID: -27097578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_67
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 6
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab421a0d48a663448ec22b7bc083e8d
+      internalID: 1918437155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_68
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f454397258ffa489bce149f821ee35
+      internalID: -1863412866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_69
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 8
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83651899b27b3e041b3243e6cfa9a049
+      internalID: 404858624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 8
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692c89df72e6f8848a52a699e632c2e3
+      internalID: 1776545811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dd11b009b205e44b30808a66f861cc
+      internalID: -420875107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_72
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 8
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09bf661c9233c04a8ca0ff884e846ee
+      internalID: 1136970387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_73
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0723c5a0a79724a44b3ecfa2d623ffdb
+      internalID: 253998056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_74
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 8
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7610c1cac44164e97efcb6cd0744a6
+      internalID: -2097365131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 8
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87754731edb628940bb32a3ec5445507
+      internalID: -2113183669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_76
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e691db3846c42f34da2f0ab12704a03a
+      internalID: 1638605866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_77
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367cfebbc76ab1442b433f1033f5be6d
+      internalID: -510900845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_78
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 8
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6115cd8414b308249968fbabc561ecd1
+      internalID: -144645375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_79
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c599756291704cbc42ae5ae36c927
+      internalID: -788054141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_80
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc2b023adc87c34280c46f480bb98cc
+      internalID: 2020121053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_81
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 8
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b818449f3121a040a8dce0b8e980799
+      internalID: -566742941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_82
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2810556ff632cce45be94955dd7dd068
+      internalID: 750844726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_83
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c946c7074f18874c930df46b2d96e0b
+      internalID: -1401954144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_84
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c575e2341303076458feffd30b982966
+      internalID: -884002178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_85
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 8
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a8f65fc9305647909a79654a9c114
+      internalID: 1000342097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_86
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f38ed16b52e624b9abca19d8a1a10e
+      internalID: 346632750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce608fc84668fe45bb27001ad015d65
+      internalID: -184636685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_88
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 8
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aee381f54f35bf46882be2f707fcdc3
+      internalID: -564218117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Joe & Mac Returns - Karnov_89
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f2a16c5c6c87b4f821462102044eb0
+      internalID: -1898180483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade - Joe & Mac Returns - Karnov_61: -1645333987
+      Arcade - Joe & Mac Returns - Karnov_72: 1136970387
+      Arcade - Joe & Mac Returns - Karnov_46: 1524648404
+      Arcade - Joe & Mac Returns - Karnov_82: 750844726
+      Arcade - Joe & Mac Returns - Karnov_89: -1898180483
+      Arcade - Joe & Mac Returns - Karnov_56: 1390892408
+      Arcade - Joe & Mac Returns - Karnov_59: 1079445670
+      Arcade - Joe & Mac Returns - Karnov_22: -1350832433
+      Arcade - Joe & Mac Returns - Karnov_8: 871298686
+      Arcade - Joe & Mac Returns - Karnov_48: -1816970338
+      Arcade - Joe & Mac Returns - Karnov_58: -169798837
+      Arcade - Joe & Mac Returns - Karnov_64: -790287400
+      Arcade - Joe & Mac Returns - Karnov_32: 2117981356
+      Arcade - Joe & Mac Returns - Karnov_17: 2001527731
+      Arcade - Joe & Mac Returns - Karnov_71: -420875107
+      Arcade - Joe & Mac Returns - Karnov_81: -566742941
+      Arcade - Joe & Mac Returns - Karnov_13: -905912346
+      Arcade - Joe & Mac Returns - Karnov_65: -1613801770
+      Arcade - Joe & Mac Returns - Karnov_39: 2042784963
+      Arcade - Joe & Mac Returns - Karnov_28: 1509675986
+      Arcade - Joe & Mac Returns - Karnov_4: 293229674
+      Arcade - Joe & Mac Returns - Karnov_53: -2105470962
+      Arcade - Joe & Mac Returns - Karnov_45: -671571244
+      Arcade - Joe & Mac Returns - Karnov_52: -2105905931
+      Arcade - Joe & Mac Returns - Karnov_69: 404858624
+      Arcade - Joe & Mac Returns - Karnov_10: 983948755
+      Arcade - Joe & Mac Returns - Karnov_31: 451434223
+      Arcade - Joe & Mac Returns - Karnov_2: 749381519
+      Arcade - Joe & Mac Returns - Karnov_27: -1733789113
+      Arcade - Joe & Mac Returns - Karnov_62: 198250016
+      Arcade - Joe & Mac Returns - Karnov_9: 897932175
+      Arcade - Joe & Mac Returns - Karnov_12: -1797583008
+      Arcade - Joe & Mac Returns - Karnov_36: 292477219
+      Arcade - Joe & Mac Returns - Karnov_19: 1126522637
+      Arcade - Joe & Mac Returns - Karnov_50: -435776236
+      Arcade - Joe & Mac Returns - Karnov_63: 1762293954
+      Arcade - Joe & Mac Returns - Karnov_42: -883325641
+      Arcade - Joe & Mac Returns - Karnov_25: 1740201477
+      Arcade - Joe & Mac Returns - Karnov_68: -1863412866
+      Arcade - Joe & Mac Returns - Karnov_73: 253998056
+      Arcade - Joe & Mac Returns - Karnov_66: -27097578
+      Arcade - Joe & Mac Returns - Karnov_35: -286140301
+      Arcade - Joe & Mac Returns - Karnov_76: 1638605866
+      Arcade - Joe & Mac Returns - Karnov_15: 657443474
+      Arcade - Joe & Mac Returns - Karnov_44: 1937577032
+      Arcade - Joe & Mac Returns - Karnov_87: -184636685
+      Arcade - Joe & Mac Returns - Karnov_20: -504022847
+      Arcade - Joe & Mac Returns - Karnov_70: 1776545811
+      Arcade - Joe & Mac Returns - Karnov_18: 662092860
+      Arcade - Joe & Mac Returns - Karnov_5: -368712892
+      Arcade - Joe & Mac Returns - Karnov_41: -614335034
+      Arcade - Joe & Mac Returns - Karnov_43: -1794001971
+      Arcade - Joe & Mac Returns - Karnov_67: 1918437155
+      Arcade - Joe & Mac Returns - Karnov_24: 1785217241
+      Arcade - Joe & Mac Returns - Karnov_40: -756080381
+      Arcade - Joe & Mac Returns - Karnov_51: -1761434589
+      Arcade - Joe & Mac Returns - Karnov_16: 775976011
+      Arcade - Joe & Mac Returns - Karnov_84: -884002178
+      Arcade - Joe & Mac Returns - Karnov_3: 1473334482
+      Arcade - Joe & Mac Returns - Karnov_49: -240722202
+      Arcade - Joe & Mac Returns - Karnov_21: 1848509753
+      Arcade - Joe & Mac Returns - Karnov_77: -510900845
+      Arcade - Joe & Mac Returns - Karnov_0: -469321770
+      Arcade - Joe & Mac Returns - Karnov_7: 1470623545
+      Arcade - Joe & Mac Returns - Karnov_34: 339565814
+      Arcade - Joe & Mac Returns - Karnov_38: -762425432
+      Arcade - Joe & Mac Returns - Karnov_57: -85826590
+      Arcade - Joe & Mac Returns - Karnov_60: 1479957059
+      Arcade - Joe & Mac Returns - Karnov_55: 2073576702
+      Arcade - Joe & Mac Returns - Karnov_86: 346632750
+      Arcade - Joe & Mac Returns - Karnov_54: 237204952
+      Arcade - Joe & Mac Returns - Karnov_11: 1291317296
+      Arcade - Joe & Mac Returns - Karnov_74: -2097365131
+      Arcade - Joe & Mac Returns - Karnov_30: 1675189135
+      Arcade - Joe & Mac Returns - Karnov_47: 1268426089
+      Arcade - Joe & Mac Returns - Karnov_14: 126302910
+      Arcade - Joe & Mac Returns - Karnov_33: -2051912371
+      Arcade - Joe & Mac Returns - Karnov_79: -788054141
+      Arcade - Joe & Mac Returns - Karnov_37: -73985730
+      Arcade - Joe & Mac Returns - Karnov_29: -1730849241
+      Arcade - Joe & Mac Returns - Karnov_88: -564218117
+      Arcade - Joe & Mac Returns - Karnov_75: -2113183669
+      Arcade - Joe & Mac Returns - Karnov_85: 1000342097
+      Arcade - Joe & Mac Returns - Karnov_78: -144645375
+      Arcade - Joe & Mac Returns - Karnov_26: 1551279840
+      Arcade - Joe & Mac Returns - Karnov_80: 2020121053
+      Arcade - Joe & Mac Returns - Karnov_1: 65309839
+      Arcade - Joe & Mac Returns - Karnov_6: -1862428920
+      Arcade - Joe & Mac Returns - Karnov_23: 302554630
+      Arcade - Joe & Mac Returns - Karnov_83: -1401954144
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

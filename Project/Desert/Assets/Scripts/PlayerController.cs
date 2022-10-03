@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         if (movement != Vector2.zero)
         {
             _camera.orthographicSize += expandSpeed * Time.deltaTime;
-            _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, 0, 6);
+            _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, 0, 40);
             if (movement.x != 0) playerAnimator.SetBool("movingHorizontal", true);
         }else playerAnimator.SetBool("movingHorizontal", false);
         if (movement.x > 0 && facingLeft) flip();
@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(movement * movementSpeed);
         rigidBody.MovePosition(rigidBody.position + movement * movementSpeed);
 
     }

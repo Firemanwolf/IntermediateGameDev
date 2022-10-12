@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Border : MonoBehaviour
 {
-    [SerializeField]GameObject RestartButton;
+    public UnityEvent HitEvent;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +16,8 @@ public class Border : MonoBehaviour
     {
         if(collision.gameObject.tag == "Ball")
         {
-            Time.timeScale = 0;
-            RestartButton.SetActive(true);
+            collision.rigidbody.bodyType = RigidbodyType2D.Static;
+            Destroy(collision.gameObject);
         }
     }
 }

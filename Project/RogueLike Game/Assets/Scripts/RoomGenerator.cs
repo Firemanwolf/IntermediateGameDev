@@ -102,7 +102,7 @@ public class RoomGenerator : MonoBehaviour
         newRoom.roomLeft = Physics2D.OverlapCircle(roomPos + new Vector3(-xOffset, 0, 0), 0.2f, roomLayer);
         newRoom.roomRight = Physics2D.OverlapCircle(roomPos + new Vector3(xOffset, 0, 0), 0.2f, roomLayer);
 
-        newRoom.UpdateRoom();
+        newRoom.UpdateRoom(xOffset, yOffset);
 
         switch (newRoom.DoorNum)
         {
@@ -171,7 +171,7 @@ public class RoomGenerator : MonoBehaviour
                 maxStep = rooms[i].stepToStart;
         }
 
-        //Arrain maximumValueRoom and secondMaximumValueRoom
+        //Attain maximumValueRoom and secondMaximumValueRoom
         foreach (var room in rooms)
         {
             if (room.stepToStart == maxStep)

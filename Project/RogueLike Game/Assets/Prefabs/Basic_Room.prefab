@@ -2236,6 +2236,7 @@ MonoBehaviour:
   roomDown: 0
   stepToStart: 0
   DoorNum: 0
+  EnemyPrefab: {fileID: 3822953166359398375, guid: 2102e83ad3470ca4cb099ae32409d8d7, type: 3}
   text: {fileID: 8472199111287501270}
 --- !u!1 &2570312327274579215
 GameObject:
@@ -2740,7 +2741,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.01392746}
+  m_Offset: {x: -0.115656376, y: 0.3030691}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2751,7 +2752,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.996937, y: 9.907913}
+  m_Size: {x: 17, y: 9}
   m_EdgeRadius: 0
 --- !u!1 &9145703560665726157
 GameObject:

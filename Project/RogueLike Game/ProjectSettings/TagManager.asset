@@ -3,12 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Monster
+  - Ending
+  - Music
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemies
   - Water
   - UI
   - Room
@@ -46,6 +49,9 @@ TagManager:
     locked: 0
   - name: Door
     uniqueID: 1115942105
+    locked: 0
+  - name: Enemies
+    uniqueID: 2450883551
     locked: 0
   - name: Player
     uniqueID: 2426429961

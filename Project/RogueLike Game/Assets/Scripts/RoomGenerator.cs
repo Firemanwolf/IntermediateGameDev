@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Pathfinding;
 
 public class RoomGenerator : MonoBehaviour
 {
@@ -31,13 +32,18 @@ public class RoomGenerator : MonoBehaviour
 
     public WallType wallType;
 
+    AstarData data;
+    public float nodeDiameter = 1.3f;
+
     // Start is called before the first frame update
     void Start()
     {
+        data = AstarPath.active.data;
         for (int i = 0; i < roomNum; i++)
         {
+            GridGraph graph = data.AddGraph(typeof(GridGraph)) as GridGraph;
             rooms.Add(Instantiate(roomPrefab, generatorPoint.position, Quaternion.identity).GetComponent<Room>());
-
+            SetupGridGraph(graph);
             //changing point position
             ChangePointPos();
         }
@@ -56,20 +62,11 @@ public class RoomGenerator : MonoBehaviour
         }
 
         FindEndRoom();
-
-        endRoom.GetComponent<SpriteRenderer>().color = endColor;
-
+        endRoom.GetComponent<Room>().Final = true;
 
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonUp(0))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
 
     public void ChangePointPos()
     {
@@ -95,6 +92,15 @@ public class RoomGenerator : MonoBehaviour
         } while (Physics2D.OverlapCircle(generatorPoint.position, 0.2f, roomLayer));
     }
 
+    public void SetupGridGraph(GridGraph gg)
+    {
+        gg.SetDimensions(Mathf.RoundToInt(xOffset) - 1, Mathf.RoundToInt(yOffset) - 1, 1);
+        gg.center = generatorPoint.position;
+        gg.is2D = true;
+        gg.collision.use2D = true;
+        gg.collision.diameter = nodeDiameter;
+        AstarPath.active.Scan(gg);
+    }
     public void SetupRoom(Room newRoom, Vector3 roomPos)
     {
         newRoom.roomUp = Physics2D.OverlapCircle(roomPos + new Vector3(0, yOffset, 0), 0.2f, roomLayer);
@@ -108,57 +114,57 @@ public class RoomGenerator : MonoBehaviour
         {
             case 1:
                 if (newRoom.roomUp)
-                    Instantiate(wallType.singleUp, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.singleUp, roomPos, Quaternion.identity);
                 if (newRoom.roomDown)
-                    Instantiate(wallType.singleDown, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.singleDown, roomPos, Quaternion.identity);
                 if (newRoom.roomLeft)
-                    Instantiate(wallType.singleLeft, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.singleLeft, roomPos, Quaternion.identity);
                 if (newRoom.roomRight)
-                    Instantiate(wallType.singleRight, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.singleRight, roomPos, Quaternion.identity);
                 break;
             case 2:
                 if(newRoom.roomLeft && newRoom.roomUp)
                 {
-                    Instantiate(wallType.doubleLU, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleLU, roomPos, Quaternion.identity);
                 }
                 if (newRoom.roomLeft && newRoom.roomRight)
                 {
-                    Instantiate(wallType.doubleLR, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleLR, roomPos, Quaternion.identity);
                 }
                 if (newRoom.roomLeft && newRoom.roomDown)
                 {
-                    Instantiate(wallType.doubleLD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleLD, roomPos, Quaternion.identity);
                 }
                 if (newRoom.roomUp && newRoom.roomDown)
                 {
-                    Instantiate(wallType.doubleUD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleUD, roomPos, Quaternion.identity);
                 }
                 if (newRoom.roomUp && newRoom.roomRight)
                 {
-                    Instantiate(wallType.doubleUR, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleUR, roomPos, Quaternion.identity);
                 }
                 if (newRoom.roomUp && newRoom.roomDown)
                 {
-                    Instantiate(wallType.doubleUD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleUD, roomPos, Quaternion.identity);
                 }
                 if (newRoom.roomRight && newRoom.roomDown)
                 {
-                    Instantiate(wallType.doubleRD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.doubleRD, roomPos, Quaternion.identity);
                 }
                 break;
             case 3:
                 if (!newRoom.roomUp)
-                    Instantiate(wallType.tripleLRD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.tripleLRD, roomPos, Quaternion.identity);
                 if (!newRoom.roomRight)
-                    Instantiate(wallType.tripleLUD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.tripleLUD, roomPos, Quaternion.identity);
                 if (!newRoom.roomDown)
-                    Instantiate(wallType.tripleLUR, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.tripleLUR, roomPos, Quaternion.identity);
                 if(!newRoom.roomLeft)
-                    Instantiate(wallType.tripleURD, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.tripleURD, roomPos, Quaternion.identity);
                 break;
             case 4:
                 if(newRoom.roomUp && newRoom.roomDown && newRoom.roomLeft && newRoom.roomRight)
-                    Instantiate(wallType.quadraDoors, roomPos, Quaternion.identity);
+                    newRoom.Wall = Instantiate(wallType.quadraDoors, roomPos, Quaternion.identity);
                 break;
         }
     }

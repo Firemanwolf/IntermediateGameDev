@@ -10,7 +10,7 @@ public class WallMap : MonoBehaviour
     {
         mapSprite = transform.parent.GetChild(0).gameObject;
 
-        mapSprite.SetActive(false);
+        //mapSprite.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
